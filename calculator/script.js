@@ -1,7 +1,6 @@
 
 /*
     get all buttons depending if it is a number, operation, or the equal button
-    https://www.section.io/engineering-education/building-a-calculator-a-javascript-project-for-beginners/
 */
 const numberButtons = document.querySelectorAll('[data-number]')
 const operationButtons = document.querySelectorAll('[data-operation]')
@@ -12,7 +11,6 @@ const equalsButton = document.querySelector('[data-equals]')
 /*
     for every number button, add an onclick function
     that displays the buttons the user has clicked
-    https://stackoverflow.com/questions/30499447/determine-which-button-was-clicked-inside-a-div
 */
 numberButtons.forEach(button => {
     let value = button.textContent
@@ -99,7 +97,6 @@ equalsButton.addEventListener('click', function(){
 /*
    calculates with the proper operation and returns total 
 */
-//https://stackoverflow.com/questions/5834318/are-variable-operators-possible
 function operators(op, a, b) {
     if(op =='÷'){ return a / b }
     if(op =='x'){ return a * b }
