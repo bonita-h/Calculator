@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Simple Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="calculator">
+        <div id="output"> 
+            <!-- display what buttons the user has click on-->
+            <!-- or the total when the equal button is clicked-->
+            <div id="prev_display"></div>
+            <div id="curr_display"> </div>
+        </div>
+        <!-- the number buttons and operations the user can click on-->
+        <div class="input_buttons">
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>÷</button>
+            <br></br>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>x</button>
+            <br></br>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>-</button>
+            <br></br>
+            <button data-number>0</button>
+            <button data-number>.</button>
+            <button data-operation>+</button>
+            <button data-equals>=</button>
+            <br></br>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>

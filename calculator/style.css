@@ -1,0 +1,26 @@
+#calculator {
+    background-color: thistle;
+    height: 300px;
+    width: 175px;
+}
+#output{
+    background-color: bisque;
+    color: brown;
+    font-size: 20px;
+    height: 50px;
+    width: 175px;
+}
+#prev_display{
+    height: 25px;
+}
+#curr_display{
+    color: black;
+}
+.input_buttons > button{
+    background-color: black;
+    color: white;
+    border: 1pc;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
