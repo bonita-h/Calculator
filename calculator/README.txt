@@ -1,5 +1,5 @@
 Calculator
-Code by: Bonita Hout
+Code by: Bonita H.
 07/12/2022 - 08/12/2022
 
 Description:
