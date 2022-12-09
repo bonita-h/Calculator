@@ -18,4 +18,3 @@ Files:
     style.css
         - styling for html file
 
-NOTE: urls in 'script.js' are external references to help with code
